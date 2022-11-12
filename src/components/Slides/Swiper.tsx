@@ -13,9 +13,17 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { Link } from "react-router-dom";
 import { HiOutlineChevronDoubleDown } from "react-icons/hi";
+import Aos from "aos";
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
+
 export function Swipers() {
+  
+  useEffect(() => {
+    Aos.init({duration: 1000, easing: 'ease-out'})
+})
   return (
-    <div className="w-full h-full" id="swipper">
+    <div data-aos="fade" className="w-full h-full" id="swipper">
       <div className="">
         <Swiper
           className="flex justify-center items-center shadow-2xl w-[100%] relati "
