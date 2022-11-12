@@ -64,7 +64,7 @@ export function Swipers() {
         </Swiper>
       </div>
       <div className="pt-12">
-        <div className="flex justify-start py-12 pl-[20rem]">
+        <div className="flex justify-start py-12 pl-[15rem]">
           
             <a href="/#main">
               <div className="rounded-full shadow-lg shadow-gray-400 p-8 cursor-pointer hover:scale-110 ease-in duration-300">

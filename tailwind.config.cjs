@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        degradeCCE: 'url(/degradeCCE.png)'
+        degradeCCE: 'url(/background.png)'
         
       },
     },
