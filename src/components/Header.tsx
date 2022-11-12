@@ -54,7 +54,7 @@ export function Header() {
       <div className=" w-full h-full z-[100] ">
         <ul className="flex flex-row text-center items-center justify-center text-sm font-bold  text-zinc-600 gap-5 ">
           <a>
-            <li className="w-[16rem]">
+            <li className="w-[14rem]">
               <img src="/logo.png" alt="" />
             </li>
           </a>
@@ -62,7 +62,7 @@ export function Header() {
           <a>
             <li
               className="cursor-pointer transition-colors
-            duration-500 hover:text-zinc-400"
+            duration-500 hover:text-[#073952]"
             >
               INSTITUCIONAL
             </li>
@@ -70,7 +70,7 @@ export function Header() {
           <a>
             <li
               className="cursor-pointer transition-colors
-            duration-500 hover:text-zinc-400"
+            duration-500 hover:text-[#073952]"
             >
               CURSOS
             </li>
@@ -78,7 +78,7 @@ export function Header() {
           <a>
             <li
               className="cursor-pointer transition-colors
-            duration-500 hover:text-zinc-400"
+            duration-500 hover:text-[#073952]"
             >
               FORMAS DE ACESSO
             </li>
@@ -86,7 +86,7 @@ export function Header() {
           <a>
             <li
               className="cursor-pointer transition-colors
-            duration-500 hover:text-zinc-400"
+            duration-500 hover:text-[#073952]"
             >
               EVENTOS
             </li>
@@ -94,7 +94,7 @@ export function Header() {
           <a>
             <li
               className="cursor-pointer transition-colors
-            duration-500  hover:text-zinc-400"
+            duration-500  hover:text-[#073952]"
             >
               BLOG
             </li>
@@ -102,7 +102,7 @@ export function Header() {
           <a>
             <li
               className="cursor-pointer transition-colors
-            duration-500 hover:text-zinc-400"
+            duration-500 hover:text-[#073952]"
             >
               BIBLIOTECA
             </li>
@@ -110,7 +110,7 @@ export function Header() {
           <a>
             <li
               className="cursor-pointer transition-colors
-            duration-500 hover:text-zinc-400"
+            duration-500 hover:text-[#073952]"
             >
               CONTATO
             </li>
@@ -118,7 +118,7 @@ export function Header() {
           <a>
             <li
               className="cursor-pointer transition-colors
-            duration-500 hover:text-zinc-400"
+            duration-500 hover:text-[#073952]"
             >
               OUVIDORIA
             </li>
