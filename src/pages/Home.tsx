@@ -16,7 +16,6 @@ export function Home() {
     <div className="max-w-full w-screen overflow-hidden">
       <Swipers/>
       <Main />
-      <Footer/>
     </div>
   );
 }
