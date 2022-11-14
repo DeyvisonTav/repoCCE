@@ -20,10 +20,10 @@ import { useEffect } from "react";
 export function Swipers() {
   
   useEffect(() => {
-    Aos.init({duration: 1000, easing: 'ease-out'})
+    Aos.init({duration: 3000, easing: 'ease-out'})
 })
   return (
-    <div data-aos="fade" className="w-full h-full" id="swipper">
+    <div data-aos="fade-right" className="w-full h-full" id="swipper">
       <div className="">
         <Swiper
           className="flex justify-center items-center shadow-2xl w-[100%] relati "
