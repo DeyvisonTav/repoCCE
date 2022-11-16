@@ -11,7 +11,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { Link } from "react-router-dom";
 import { HiOutlineChevronDoubleDown } from "react-icons/hi";
 import Aos from "aos";
 import 'aos/dist/aos.css'
@@ -20,7 +19,7 @@ import { useEffect } from "react";
 export function Swipers() {
   
   useEffect(() => {
-    Aos.init({duration: 3000, easing: 'ease-out'})
+    Aos.init({duration: 3200, easing: 'ease-out'})
 })
   return (
     <div data-aos="fade-right" className="w-full h-full" id="swipper">

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { ImFacebook } from "react-icons/im";
 import { AiFillInstagram } from "react-icons/ai";
-import {AiFillYoutube} from 'react-icons/ai'
+import { AiFillYoutube } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 export function Header() {
   const [shadow, setShadow] = useState(false);
@@ -20,9 +20,11 @@ export function Header() {
   return (
     <div>
       <div
+        data-aos="zoom-in"
+        data-aos-duration="500"
         className={
           shadow
-            ? "fixed w-full h-16 shadow-2xl opacity-95 z-[100] ease-in-out duration-500 bg-white flex justify-around items-center text-sm font-bold  text-zinc-600 "
+            ? "fixed w-full h-16 shadow-2xl shadow-zinc-500 opacity-95 z-[100] ease-in-out duration-500 bg-white flex justify-around items-center text-sm font-bold  text-zinc-600 "
             : "hidden fixed w-full h-20 z-[100]"
         }
       >
